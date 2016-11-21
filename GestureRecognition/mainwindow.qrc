@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/MainWindow">
+        <file>Resources/Images/exit.jpg</file>
+        <file>Resources/Images/stop.png</file>
+        <file>Resources/Images/start.png</file>
+    </qresource>
+</RCC>

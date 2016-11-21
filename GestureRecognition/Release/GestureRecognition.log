@@ -1,0 +1,27 @@
+﻿Build started 3/2/2016 10:10:07 PM.
+     1>Project "E:\Temp\GestureRecognition\GestureRecognition.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\GestureRecognition.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Programming\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Programming\Qt4.8.6\include /I.\GeneratedFiles\Release /IC:\Programming\Qt4.8.6\include\QtCore /IC:\Programming\Qt4.8.6\include\QtGui /ID:\OpenSDKs\OpenCV2.4.11\build\include /IC:\Programming\PrimeSense\NITE\Include /IC:\Programming\OpenNI\Include /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt mainwindow.cpp
+         mainwindow.cpp
+         All outputs are up-to-date.
+       Link:
+         C:\Programming\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Temp\GestureRecognition\Win32\Release\\GestureRecognition.exe" /NOLOGO /LIBPATH:C:\Programming\Qt4.8.6\lib /LIBPATH:D:\OpenSDKs\OpenCV2.4.11\build\x86\vc10\lib /LIBPATH:C:\Programming\PrimeSense\NITE\Lib /LIBPATH:C:\Programming\OpenNI\Lib qtmain.lib QtCore4.lib QtGui4.lib NiSampleExtensionModule.lib NiSampleModule.lib OpenNI.jni.lib openNI.lib XnVCNITE_1_5_2.lib XnVFeatures_1_5_2.lib XnVHandGenerator_1_5_2.lib XnVNITE.jni.lib XnVNITE_1_5_2.lib opencv_calib3d2411.lib opencv_contrib2411.lib opencv_core2411.lib opencv_features2d2411.lib opencv_flann2411.lib opencv_gpu2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib opencv_legacy2411.lib opencv_ml2411.lib opencv_nonfree2411.lib opencv_objdetect2411.lib opencv_ocl2411.lib opencv_photo2411.lib opencv_stitching2411.lib opencv_superres2411.lib opencv_ts2411.lib opencv_video2411.lib opencv_videostab2411.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\GestureRecognition.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\Temp\GestureRecognition\Win32\Release\GestureRecognition.pdb" /SUBSYSTEM:CONSOLE /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Temp\GestureRecognition\Win32\Release\GestureRecognition.lib" /MACHINE:X86 Release\copenni.obj
+         Release\qrc_mainwindow.obj
+         Release\moc_mainwindow.obj
+         Release\main.obj
+         Release\mainwindow.obj
+         GestureRecognition.vcxproj -> E:\Temp\GestureRecognition\Win32\Release\GestureRecognition.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Temp\GestureRecognition\Win32\Release\\GestureRecognition.exe;#1" /manifest Release\GestureRecognition.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\GestureRecognition.unsuccessfulbuild".
+         Touching "Release\GestureRecognition.lastbuildstate".
+     1>Done Building Project "E:\Temp\GestureRecognition\GestureRecognition.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.86
