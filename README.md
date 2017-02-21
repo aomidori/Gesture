@@ -15,10 +15,12 @@ Feature
 * 2. Implemented image noise filtering to increase the accuracy 
 * 3. Used OpenCV to draw the feature points to judge the gestures 
 * 4. Easy to extend 
-![](https://drive.google.com/open?id=0B1kb53xSzLHJREVaZHNxN0J4UUk)
 
 Way to Use
 -------
 You can directly use the exe file built before [here](https://github.com/yuechaohou/Gesture/tree/master/GestureRecognition/Win32/Release)
 , or you can rebuild the project by your self.
 
+* 1. Make use you install OpenNI 2.2, OpenCV 2.4.11 and Qt 4.8.6 correctly 
+* 2. Connect to Kinect 1.0 with USB, and ensure the indicator light on the Kinect glows green
+* 3. Runt the application
